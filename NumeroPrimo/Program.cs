@@ -6,6 +6,29 @@ namespace NumeroPrimo
     {
         public static void Main(string[] args)
         {
+            string SoftwareName = "NumeroPrimo";
+            string Version = "1.1";
+            string CopyrightName = "Heitor Bisneto.";
+            DateTime AnoAtual = DateTime.Today;
+
+            Console.WriteLine("Nome: " + SoftwareName);
+            Console.WriteLine("Versão: " + Version);
+            Console.WriteLine("Criado por: " + CopyrightName);
+
+            string StrAnoAtual = AnoAtual.ToString("yyyy");
+            int IntAnoAtual = Convert.ToInt32(StrAnoAtual);
+
+            if (IntAnoAtual == 2021)
+            {
+                Console.WriteLine("Copyright © " + IntAnoAtual + " | " + CopyrightName + " All rights reserved.");
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Copyright © 2020 - " + IntAnoAtual + " | " + CopyrightName + " All rights reserved.");
+                Console.WriteLine();
+            }
+
             int Qtd = 0;
 
             Console.WriteLine(">> Informe um Número: ");
