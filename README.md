@@ -17,3 +17,10 @@ Versão 1.0:
 Versão 1.1:
 - Pequenas alterações de texto
 ```
+
+```
+Versão 1.2:
+- Implementação da classe "Copyright"
+- Implementação do nome do programa em execução
+- Pequenas alterações de texto
+```
